@@ -13,7 +13,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="fixed w-full h-20 shadow-xl z-[100]">
+    <div className="fixed w-full h-20 shadow-xl z-50 top-0 left-0 bg-[#ecf0f3]">
       <div className="flex justify-between items-center w-full h-full px-4 2xl:px-16">
         <Image
           src="/../public/assets/logo.png"
@@ -25,21 +25,27 @@ const Navbar = () => {
         <div className="px-4 flex">
           <ul className="hidden md:flex">
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b ease-in duration-500">Home</li>
+              <li className="ml-10 text-sm uppercase border-b border-[#ecf0f3] hover:border-inherit hover:-translate-y-0.5 ease-in duration-100">
+                Home
+              </li>
             </Link>
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">About</li>
+              <li className="ml-10 text-sm uppercase hover:border-b hover:-translate-y-0.5 ease-in duration-100">
+                About
+              </li>
             </Link>
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">Skills</li>
+              <li className="ml-10 text-sm uppercase hover:border-b hover:-translate-y-0.5 ease-in duration-100">
+                Skills
+              </li>
             </Link>
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">
+              <li className="ml-10 text-sm uppercase hover:border-b hover:-translate-y-0.5 ease-in duration-100">
                 Projects
               </li>
             </Link>
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">
+              <li className="ml-10 text-sm uppercase hover:border-b hover:-translate-y-0.5 ease-in duration-100">
                 Contact
               </li>
             </Link>
