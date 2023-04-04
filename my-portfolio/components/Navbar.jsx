@@ -14,7 +14,7 @@ const Navbar = () => {
 
   return (
     <div className="fixed w-full h-20 shadow-xl z-[100]">
-      <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
+      <div className="flex justify-between items-center w-full h-full px-4 2xl:px-16">
         <Image
           src="/../public/assets/logo.png"
           alt="/"
@@ -22,10 +22,10 @@ const Navbar = () => {
           height="20"
           className="rounded-2xl"
         />
-        <div>
+        <div className="px-4 flex">
           <ul className="hidden md:flex">
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
+              <li className="ml-10 text-sm uppercase hover:border-b ease-in duration-500">Home</li>
             </Link>
             <Link href="/">
               <li className="ml-10 text-sm uppercase hover:border-b">About</li>
