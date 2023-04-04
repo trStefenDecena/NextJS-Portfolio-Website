@@ -4,6 +4,7 @@ import Navbar from "../components/Navbar";
 import Main from "../components/Main";
 import About from "../components/About";
 import Skills from "../components/Skills";
+import Projects from "../components/Projects";
 
 export default function Home() {
   return (
@@ -15,11 +16,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-
       <Main />
       <About />
       <Navbar />
       <Skills />
+      <Projects />
     </div>
   );
 }
